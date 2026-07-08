@@ -13,11 +13,6 @@ import java.util.Random;
 @RequiredArgsConstructor
 public class UrlService {
 
-    /* Isso evita que o banco receba um erro 'NullPointerException',
-    *   pois o Spring garante que o repositório estará lá assim
-    *   que a classe for criada
-    */
-
 
     private final UrlRepository urlRepository;
 
